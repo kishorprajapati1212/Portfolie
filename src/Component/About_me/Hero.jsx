@@ -127,7 +127,7 @@ const Hero = () => {
               }}
             >
               Hi! I'm <span style={{ fontWeight: "bold", color: "#ffffff" }}>Kishor</span>. With
-              <span style={{ fontWeight: "bold", color: "#ffffff" }}> 3+ years </span>
+              <span style={{ fontWeight: "bold", color: "#ffffff" }}> 2+ years </span>
               building full-stack apps using MERN, PHP, and modern 3D tools, I deliver real solutions — fast, scalable, and ready to deploy.
             </p>
 
@@ -140,7 +140,7 @@ const Hero = () => {
           {/* RIGHT SIDE METRICS */}
           <div className="hero-right hero-metrics" style={{ flex: 1, color: "#fff", textAlign: "right", paddingRight: "2rem" }}>
             <div style={{ marginBottom: "2rem" }}>
-              <div style={{ fontSize: "clamp(1rem, 2.5vw, 2rem)", fontWeight: "900", color: "#00ff66" }}>3+</div>
+              <div style={{ fontSize: "clamp(1rem, 2.5vw, 2rem)", fontWeight: "900", color: "#00ff66" }}>2+</div>
               <div style={{ fontSize: "clamp(0.5rem, 2.5vw, 1rem)", color: "#ccc" }}>Years of Experience</div>
             </div>
             <div style={{ marginBottom: "2rem" }}>

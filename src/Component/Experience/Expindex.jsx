@@ -5,15 +5,21 @@ gsap.registerPlugin(ScrollTrigger);
 
 const freelanceProjects = [
     {
-        type: "Freelance Project",
-        title: "Full Stack Developer – Admin Panel for Business Tool",
-        timeline: "May 2023 – Sep 2023",
+        type: "AICTE Project",
+        title: "Full Stack Developer – Cultural website",
+        timeline: "July 2024 - Dec 2024",
     },
     {
         type: "Freelance SaaS Project",
         title: "AI Developer – Image & Video Generation Platform",
-        timeline: "Mar 2024 – Jul 2024",
+        timeline: "Jan 2024 - May 2024",
     },
+    {
+        type: "Freelance Project",
+        title: "Full Stack Developer – Admin Panel for Business Tool",
+        timeline: "Sep 2023 - Dec 2023",
+    },
+    
 ];
 
 const Expindex = () => {
