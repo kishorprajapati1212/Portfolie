@@ -1,0 +1,18 @@
+# netlify.toml
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Prevent MIME-type sniffing
+    X-Content-Type-Options = "nosniff"
+    # Prevent clickjacking
+    X-Frame-Options = "DENY"
+    # Enable XSS protection in older browsers
+    X-XSS-Protection = "1; mode=block"
+    # Strict Transport Security (forces HTTPS)
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    # Basic Content Security Policy (CSP)
+    Content-Security-Policy = "default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; font-src 'self' https: data:;"
+    # Permissions Policy (restricts APIs like camera, mic, etc.)
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), fullscreen=*"
+    # Referrer Policy
+    Referrer-Policy = "strict-origin-when-cross-origin"
