@@ -6,7 +6,8 @@ const projects = [
     image: "/website_ss/Ai_Warranty/Home_warrantylookup.png" ,
     stack: ["React", "Node.js", "MongoDB"],
     usestack: ["React", "Node.js", "MongoDB", "Express.js", "Axios", "GoogleAuth" ],
-    liveLink: "https://warrantylookup.netlify.app/",
+    // liveLink: "https://warrantylookup.netlify.app/",
+    liveLink: "",
     github: "https://github.com/kishorprajapati1212/warrenty_Look_Up.git", // if available
     webimages: [
       "/website_ss/Ai_Warranty/Home_warrantylookup.png" ,
