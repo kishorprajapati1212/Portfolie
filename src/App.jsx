@@ -35,7 +35,7 @@ function App() {
         <StarRainBackground />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project/:id" element={<ProjectDetail />} />
+         // <Route path="/project/:id" element={<ProjectDetail />} />
         </Routes>
 
       <Footer />
