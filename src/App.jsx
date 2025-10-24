@@ -30,6 +30,7 @@ function App() {
       <MorphLoader />
       :
       <>
+
         {/* Global Star Background */}
         <ScrollToTop />
         <StarRainBackground />
@@ -38,7 +39,7 @@ function App() {
           <Route path="/project/:id" element={<ProjectDetail />} />
         </Routes>
 
-      <Footer />
+        <Footer />
       </>
   );
 }

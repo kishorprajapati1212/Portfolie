@@ -19,6 +19,14 @@ const Expindex = () => {
   const navigate = useNavigate();
   const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
+  // ✅ Preload all project preview images
+  useEffect(() => {
+    personalProjects.forEach((project) => {
+      const img = new Image();
+      img.src = project.image;
+    });
+  }, []);
+
   // Animate on scroll
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
