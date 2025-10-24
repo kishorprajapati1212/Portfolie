@@ -8,7 +8,7 @@ const projects = [
     usestack: ["React", "Node.js", "MongoDB", "Express.js", "Axios", "GoogleAuth" ],
     // liveLink: "https://warrantylookup.netlify.app/",
     liveLink: "",
-    github: "https://github.com/kishorprajapati1212/warrenty_Look_Up.git", // if available
+    // github: "https://github.com/kishorprajapati1212/warrenty_Look_Up.git", // if available
     webimages: [
       "/website_ss/Ai_Warranty/Home_warrantylookup.png" ,
       "/website_ss/Ai_Warranty/login_warranty.png",
@@ -29,7 +29,7 @@ const projects = [
     stack: ["Unity", "C#"],
     usestack: ["Unity", "C#", "Blender", "Mixamo"],
     liveLink: "",
-    github: "https://github.com/kishorprajapati1212/zombie_survival", // if available
+   // github: "https://github.com/kishorprajapati1212/zombie_survival", // if available
     webimages: [
       "/website_ss/Zombie_game/Start_zombie.png",
       "/website_ss/Zombie_game/first_look_zombie.png",
