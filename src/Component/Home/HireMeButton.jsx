@@ -25,7 +25,7 @@ const HireMeButton = () => {
   return (
     <>
       <a
-        href="https://www.linkedin.com/in/kishor-prajapati-96372831a/"
+        href="https://www.linkedin.com/in/kishor-prajapati-96372831a"
         target="_blank"
         rel="noopener noreferrer"
         ref={buttonRef}

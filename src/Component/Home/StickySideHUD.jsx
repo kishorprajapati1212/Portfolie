@@ -5,10 +5,10 @@ const StickySidebarHUD = () => {
   const animationFrameIdRef = useRef(null); // ✅ Use ref for persistent value
 
   useEffect(() => {
-    console.log("Mounted StickySidebarHUD");
+    // console.log("Mounted StickySidebarHUD");
 
     const updateScroll = () => {
-      console.log("Running updateScroll");
+      // console.log("Running updateScroll");
       const scrollTop = window.scrollY;
       const scrollHeight = document.body.scrollHeight;
       const clientHeight = window.innerHeight;
@@ -23,7 +23,7 @@ const StickySidebarHUD = () => {
     };
 
     const handleScroll = () => {
-      console.log("Scroll event triggered");
+      // console.log("Scroll event triggered");
     
       // This will ensure updateScroll always runs
       updateScroll();
